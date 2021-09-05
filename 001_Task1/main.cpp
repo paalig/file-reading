@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 /*
  Составьте небольшой текстовый файл «words.txt», в котором последовательно,
@@ -8,6 +9,17 @@
  */
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+    std::ifstream words;
+    words.open("C:\\Users\\Ana\\ClionProjects\\file-reading\\001_Task1\\words.txt", std::ios::binary);
+
+    std::string text;
+    int count = 0;
+    while (!words.eof()) {
+        words >> text;
+        if (text == "text") {
+            count++;
+        }
+    }
+    std::cout << count;
 }
