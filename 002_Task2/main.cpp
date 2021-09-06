@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 /*
  Разработайте простейший просмотрщик текстовых файлов.
@@ -19,6 +20,25 @@
  */
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    std::ifstream file;
+    std::string path;
+
+    std::cout << "Input file path:" << std::endl;
+    std::cin >> path;
+    file.open(path, std::ios::binary);
+    //  "C:\\Users\\Ana\\ClionProjects\\file-reading\\001_Task1\\words.txt"
+
+    char words[20];
+    if (!file.is_open()) {
+        std::cout << "Wrong file path" << std::endl;
+    } else {
+        int a = 19;
+        while(file.is_open() && !file.eof()) {
+            file.read(words, a);
+            a = file.gcount();
+            words[a] = 0;
+            std::cout << words;
+        }
+    }
+    file.close();
 }

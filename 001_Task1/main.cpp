@@ -21,5 +21,6 @@ int main() {
             count++;
         }
     }
+    words.close();
     std::cout << count;
 }
