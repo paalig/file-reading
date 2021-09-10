@@ -11,7 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="947ab13f-315c-4a58-a199-f2fdf87834b5" name="Default Changelist" comment="" />
+    <list default="true" id="947ab13f-315c-4a58-a199-f2fdf87834b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../002_Task2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../002_Task2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +44,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -60,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627069658062</updated>
       <workItem from="1627069660830" duration="264000" />
+      <workItem from="1631291721707" duration="2669000" />
     </task>
     <servers />
   </component>
@@ -71,5 +71,25 @@
       <screen x="0" y="0" width="1536" height="837" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.837@0.0.1536.837" timestamp="1627069927239" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1631294776869">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1631294776869">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1631294776869">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1631294776869">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
+    <state x="431" y="158" width="672" height="678" key="search.everywhere.popup" timestamp="1631292181253">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state x="431" y="158" width="672" height="678" key="search.everywhere.popup/0.0.1536.837@0.0.1536.837" timestamp="1631292181253" />
   </component>
 </project>
