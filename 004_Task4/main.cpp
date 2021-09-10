@@ -1,4 +1,6 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 
 /*
  - Разработайте программу, которая получает на вход, в стандартный ввод, путь к файлу.
@@ -15,6 +17,31 @@
  */
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    std::ifstream file;
+    std::string path;
+
+    std::cout << "Input file path:" << std::endl;
+    std::cin >> path;
+    file.open(path, std::ios::binary);
+
+    if (!file.is_open()) {
+        std::cout << "Wrong file path" << std::endl;
+    } else {
+        std::string text = path.substr(path.length() - 4,4);
+        if (text != ".png") {
+            std::cout << "Wrong file extension" << std::endl;
+        } else {
+            std::string str;
+            file >> str;
+            str = str.substr(0,4);
+            int value = str[0];
+            str = str.substr(1,3);
+            if (value == -119 && str == "PNG") {
+                std::cout << "PNG file" << std::endl;
+            } else {
+                std::cout << "Not PNG file" << std::endl;
+            }
+        }
+    }
+    file.close();
 }

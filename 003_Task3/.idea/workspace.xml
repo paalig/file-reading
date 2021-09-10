@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="003_Task3" targetName="003_Task3" />
@@ -12,9 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947ab13f-315c-4a58-a199-f2fdf87834b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../002_Task2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../002_Task2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,34 +75,53 @@
       <option name="presentableId" value="Default" />
       <updated>1627069658062</updated>
       <workItem from="1627069660830" duration="264000" />
-      <workItem from="1631291721707" duration="2669000" />
+      <workItem from="1631291721707" duration="3697000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1631295181703">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.837@0.0.1536.837" timestamp="1631295181703" />
     <state x="549" y="160" key="FileChooserDialogImpl" timestamp="1627069927239">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.837@0.0.1536.837" timestamp="1627069927239" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1631294776869">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1631295838432">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1631294776869">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1631295838432">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1631294776869">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1631295838432">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1631294776869">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1631295838432">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.837@0.0.1536.837" timestamp="1631294776869" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
+    <state x="540" y="120" key="RollbackChangesDialog" timestamp="1631295196147">
+      <screen x="0" y="0" width="1536" height="837" />
+    </state>
+    <state x="540" y="120" key="RollbackChangesDialog/0.0.1536.837@0.0.1536.837" timestamp="1631295196147" />
     <state x="431" y="158" width="672" height="678" key="search.everywhere.popup" timestamp="1631292181253">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
