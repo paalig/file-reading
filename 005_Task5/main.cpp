@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <fstream>
 
 /*
  Как происходит игра
@@ -17,8 +19,100 @@
 После этого называется победитель и программа заканчивает работу.
 
  */
+std::vector<int> field;
+
+std::vector<int> InitField(std::vector<int> vec) {
+    for (int i = 1; i < 14; i++) {
+        vec.push_back(i);
+    }
+    return vec;
+}
+
+int ChangeSector(int pos, int delta) {
+    int a = field.size();
+    int step = (pos + delta) % a;
+    while (field[step] == 99) {
+        step = (step + 1) % a;
+    }
+    std::cout << "Current position is " << field[step] << std::endl;
+    field[step] = 99;
+    return step;
+}
+
+bool CheckField(std::vector<int> vec) {
+    for (int i = 0; i < vec.size(); i++) {
+        if (vec[i] != 99) {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool CheckWinner (int a, int b) {
+    return !(a == 6 || b == 6);
+}
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    field = InitField(field);
+    std::vector<std::string> answers;
+    std::vector<std::string> questions;
+    std::ifstream quest;
+    std::ifstream ans;
+    quest.open("C:\\Users\\Ana\\ClionProjects\\file-reading\\005_Task5\\questions.txt", std::ios::binary);
+    ans.open("C:\\Users\\Ana\\ClionProjects\\file-reading\\005_Task5\\answers.txt", std::ios::binary);
+
+
+    if (!quest.is_open() || !ans.is_open()) {
+        std::cout << "Wrong file path" << std::endl;
+    } else {
+        std::string str;
+        while (!ans.eof()) {
+            ans >> str;
+            answers.push_back(str);
+        }
+        ans.close();
+
+        std::string str2;
+        std::string phrase;
+        while (!quest.eof()) {
+            do {
+                quest >> str2;
+                phrase += str2;
+                phrase += " ";
+            } while (str2[str2.length() - 1] != '?');
+            questions.push_back(phrase);
+            phrase = "";
+        }
+        quest.close();
+
+        int pos = 0;
+        int delta;
+        int playerPoints = 0;
+        int audiencePoints = 0;
+        std::string playerAnswer;
+
+        while (CheckField(field) && CheckWinner(playerPoints, audiencePoints)) {
+            std::cout << "Input new delta" << std::endl;
+            std::cin >> delta;
+            pos = ChangeSector(pos, delta);
+            std::cout << questions[pos] << std::endl;
+            std::cout << "Input your answer: " << std::endl;
+            std::cin >> playerAnswer;
+            if (playerAnswer == answers[pos]) {
+                playerPoints++;
+            } else {
+                audiencePoints++;
+            }
+            std::cout << "Player points: " << playerPoints << " " << "Audience points: " << audiencePoints << std::endl;
+        }
+
+        std::cout << "Game finished. The winner is: ";
+        if (playerPoints == 6) {
+            std::cout << "Player" << std::endl;
+        } else if (audiencePoints == 6){
+            std::cout << "Audience" << std::endl;
+        } else {
+            std::cout << "Nobody" << std::endl;
+        }
+    }
 }

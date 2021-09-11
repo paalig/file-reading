@@ -31,6 +31,8 @@
   <component name="ChangeListManager">
     <list default="true" id="947ab13f-315c-4a58-a199-f2fdf87834b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Task5/cmake-build-debug/CMakeFiles/005_Task5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../005_Task5/cmake-build-debug/CMakeFiles/005_Task5.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Task5/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../005_Task5/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +62,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,6 +73,8 @@
       <updated>1627069658062</updated>
       <workItem from="1627069660830" duration="264000" />
       <workItem from="1631291721707" duration="3697000" />
+      <workItem from="1631389220474" duration="87000" />
+      <workItem from="1631391089397" duration="604000" />
     </task>
     <servers />
   </component>
@@ -92,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="65" key="DiffContextDialog" timestamp="1631295181703">
