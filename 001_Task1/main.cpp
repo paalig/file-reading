@@ -11,16 +11,20 @@
 int main() {
 
     std::ifstream words;
-    words.open("C:\\Users\\Ana\\ClionProjects\\file-reading\\001_Task1\\words.txt", std::ios::binary);
+    words.open("..\\words.txt", std::ios::binary);
 
-    std::string text;
-    int count = 0;
-    while (!words.eof()) {
-        words >> text;
-        if (text == "text") {
-            count++;
+    if (!words.is_open()) {
+        std::cout << "Wrong file path" << std::endl;
+    } else {
+        std::string text;
+        int count = 0;
+        while (!words.eof()) {
+            words >> text;
+            if (text == "text") {
+                count++;
+            }
         }
+        std::cout << count;
     }
     words.close();
-    std::cout << count;
 }
