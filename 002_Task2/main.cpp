@@ -28,16 +28,16 @@ int main() {
     file.open(path, std::ios::binary);
     //  "C:\\Users\\Ana\\ClionProjects\\file-reading\\001_Task1\\words.txt"
 
-    char words[20];
+    char buffer[20];
     if (!file.is_open()) {
         std::cout << "Wrong file path" << std::endl;
     } else {
         int a = 19;
         while(file.is_open() && !file.eof()) {
-            file.read(words, a);
+            file.read(buffer, a);
             a = file.gcount();
-            words[a] = 0;
-            std::cout << words;
+            buffer[a] = 0;
+            std::cout << buffer;
         }
     }
     file.close();

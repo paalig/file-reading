@@ -30,9 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="947ab13f-315c-4a58-a199-f2fdf87834b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../002_Task2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../002_Task2/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../005_Task5/cmake-build-debug/CMakeFiles/005_Task5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../005_Task5/cmake-build-debug/CMakeFiles/005_Task5.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../005_Task5/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../005_Task5/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/003_Task3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/003_Task3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
       <workItem from="1631291721707" duration="3697000" />
       <workItem from="1631389220474" duration="87000" />
       <workItem from="1631391089397" duration="604000" />
+      <workItem from="1631734082716" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -102,22 +104,22 @@
       <screen x="0" y="0" width="1536" height="837" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.837@0.0.1536.837" timestamp="1627069927239" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1631295838432">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1631735114553">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1631295838432">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.837@0.0.1536.837" timestamp="1631735114553" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1631735114553">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1631295838432">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.837@0.0.1536.837" timestamp="1631735114553" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1631735114553">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1631295838432">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.837@0.0.1536.837" timestamp="1631735114553" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1631735114553">
       <screen x="0" y="0" width="1536" height="837" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.837@0.0.1536.837" timestamp="1631295838432" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.837@0.0.1536.837" timestamp="1631735114553" />
     <state x="540" y="120" key="RollbackChangesDialog" timestamp="1631295196147">
       <screen x="0" y="0" width="1536" height="837" />
     </state>

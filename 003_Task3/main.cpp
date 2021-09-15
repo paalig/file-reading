@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 
 /*
  Реализуйте программу чтения информации из ведомости по учёту выплат. Сама ведомость представляет собой следующую таблицу:
@@ -26,18 +25,18 @@ Margo Moorer 12350 24.2.2019
 
 int main() {
     std::ifstream file;
-    std::string path = "C:\\Users\\Ana\\ClionProjects\\file-reading\\003_Task3\\bill.txt";
+    std::string path = "..\\bill.txt";
     file.open(path, std::ios::binary);
 
-    std::vector<std::string> firstName;
-    std::vector<std::string> lastName;
-    std::vector<int> purse;
-    std::vector<std::string> dates;
+    std::string personName, personSurname, personDate;
+    int max = 0;
+    int sum = 0;
 
     if(!file.is_open()) {
         std::cout << "Opening file error" << std::endl;
     } else {
         while(!file.eof()) {
+
             std::string name;
             std::string surname;
             int money;
@@ -45,27 +44,17 @@ int main() {
 
             file >> name >> surname >> money >> date;
 
-            firstName.push_back(name);
-            lastName.push_back(surname);
-            purse.push_back(money);
-            dates.push_back(date);
-        }
-        int amount = 0;
-        for (int i = 0; i < purse.size(); i++) {
-            amount += purse[i];
-        }
-        std::cout << "Total amount is " << amount << std::endl;
-
-        int max = 0;
-        int number;
-        for (int i = 0; i < purse.size(); i++) {
-            if (purse[i] > max) {
-                max = purse[i];
-                number = i;
+            sum += money;
+            if (money > max) {
+                max = money;
+                personName = name;
+                personSurname = surname;
+                personDate = date;
             }
         }
-        std::cout << "Person with max payment is " << firstName[number] << " " << lastName[number] << std::endl;
-        std::cout << "Max payment is " << purse[number] << std::endl;
+        std::cout << "Total amount is " << sum<< std::endl;
+        std::cout << "Person with max payment is " << personName << " " << personSurname << std::endl;
+        std::cout << "Max payment is " << max << std::endl;
     }
     file.close();
 }

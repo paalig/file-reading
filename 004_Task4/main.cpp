@@ -30,15 +30,12 @@ int main() {
         if (text != ".png") {
             std::cout << "Wrong file extension" << std::endl;
         } else {
-            std::string str;
-            file >> str;
-            str = str.substr(0,4);
-            int value = str[0];
-            str = str.substr(1,3);
-            if (value == -119 && str == "PNG") {
-                std::cout << "PNG file" << std::endl;
-            } else {
+            char buffer[4];
+            file.read(buffer, 4);
+            if (buffer[0] != -119 || buffer[1] != 'P' || buffer[2] != 'N' || buffer[3] != 'G') {
                 std::cout << "Not PNG file" << std::endl;
+            } else {
+                std::cout << "PNG file" << std::endl;
             }
         }
     }
